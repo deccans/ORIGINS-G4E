@@ -1,0 +1,51 @@
+
+#check {display: none;}
+@media(min-width: 950px){
+  .keys{
+    float: left;
+    margin-top: 50px;
+  }
+  .container{height: 850px;}
+  .ark:nth-child(1){
+    float: left;
+    left:25%;
+    position: relative;
+    top: 0;
+    margin: auto;
+    width: 360px;
+    height: 550px
+  }
+  .ark:nth-child(2){
+    float: left;
+    position: relative;
+    top: 0;
+    left: 415px ;
+    margin: auto;
+  }
+  .ark:nth-child(3){
+    float: left;
+    left:55%;
+    position: relative;
+    top: 0;
+    margin: auto;
+  }
+  .ark a:nth-child(1){
+    position: relative;
+    bottom: -20px ;
+  }
+  .view{
+    height: 950px;
+  }
+}
+#check {display:none;}
+@media(max-width: 650px){
+  .ark:nth-child(1){
+    height: 550px;
+  }
+  .ark:nth-child(2){
+    margin-top: 600px;
+  }
+  .ark:nth-child(3){
+    margin-top: 1180px;
+  }
+}

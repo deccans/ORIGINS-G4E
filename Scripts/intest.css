@@ -1,0 +1,213 @@
+@font-face {
+    font-family:TBG ;
+    src: url(FONTS/tbg.otf);
+}
+@font-face {
+  font-family: age;
+  src: url(FONTS/AgencyFBBold.ttf);
+}
+@font-face {
+  font-family: ark;
+  src: url(FONTS/ARK-Regular.ttf);
+}
+@font-face {
+  font-family: evo;
+  src: url(FONTS/Evogria.otf);
+}
+@font-face {
+  font-family: gre;
+  src: url(FONTS/Gretaros-Regular.ttf);
+}
+@font-face {
+  font-family: ldf;
+  src: url(FONTS/fontldf.ttf);
+}
+@font-face {
+  font-family: val;
+  src: url(FONTS/Valorant\ Font.ttf);
+}
+@font-face {
+  font-family: port ;
+  src: url(FONTS/Porter\ Bold.ttf));
+}
+@font-face {
+  font-family: tekm;
+  src: url(FONTS/Teko-Medium.ttf);
+}
+@font-face {
+  font-family: tekb;
+  src: url(FONTS/Teko-Bold.ttf);
+}
+@font-face {
+  font-family: boll;
+  src: url(FONTS/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf);
+}
+@font-face {
+  font-family: rex;
+  src: url(FONTS/Revoxa.ttf);
+}
+@media only screen and (max-width:414px ) {
+
+}
+body {
+    width: 100% auto ;
+    height: 100% auto;
+  background-color: snow;
+}
+.header {
+  width: 100%;
+  background-size: cover;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #0E0E10;
+  top: 1%;
+  position: sticky;
+  z-index: 999;
+}
+.header ul{
+  float: right;
+  position: fixed;
+  bottom: 0;
+  left: 0 auto ;
+  top: 25px;
+  right: 0 ;
+  margin: auto;
+}
+.header ul li{
+  display: inline;
+  margin-right: 12px;
+}
+.header ul li a{
+  text-decoration: none;
+  font-family: val ;
+  font-size: large;
+  font-weight: bolder;
+  color: whitesmoke;
+  transition: 0.5s linear;
+}
+.header ul li a:hover{
+  text-decoration: 4px #10e3a4 underline;
+}
+.column {
+	float: left;
+	width: 36px;
+	padding: 1px;
+}
+.row::after {
+	content: "";
+	display: table;
+}
+.column:first-child{
+  width: 50px;
+  margin-left: 5px;
+}
+.column:nth-child(2){
+  content: "";
+  background-color: 	#FFA500;
+  margin-left: 5px;
+  padding: 5px;
+  padding-right: 7px;
+  transition-property: ease-in-out;
+  transition: all;
+  transition-duration: 0.8s;
+}
+.column:hover:nth-child(2) {
+  content: "";
+  background-color: whitesmoke;
+  transform: scale(1.1);
+}
+.container {
+  width: 100% ;
+  background-repeat: no-repeat;
+  background-color: snow;
+  height: 1250px;
+}
+.ark {
+  width: 360px;
+  height: 500px;
+  background-color: 	#F8F8FF;
+  border: 0.1px solid black;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 15PX;
+  border-radius: 5PX;
+  transition-timing-function: ease-in;
+  transition: all;
+  transition-duration: 0.8s;
+}
+.ark:nth-child(2) {
+  width: 360px;
+  height: 550px;
+  background-color: 	#F8F8FF;
+  border: 0.1px solid black;
+  position: absolute;
+  right: 0;
+  left: 0 ;
+  margin: auto;
+  margin-top: 550PX;
+  border-radius: 5PX;
+  transition-timing-function: ease-in;
+  transition: all;
+  transition-duration: 0.8s;
+}
+.ark:hover{
+  transform: scale(1.1);
+}
+ iframe {
+  width: 360px;
+  height: 200px;
+  position:absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+.ark h2 {
+  font-family: rex ;
+  color: black;
+  font-style: italic;
+  font-size:large;
+  text-align: center;
+  padding-top: 55%;
+}
+.ark h2:nth-child(2)::first-letter:last-child{
+  color: #c90411;
+}
+.ark h2::first-letter{
+  color: #2575fc;
+  font-size: xx-large;
+}
+.ark a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.ark button {
+  background: none;
+  border: 1PX SOLID black;
+  color: black;
+  display: flex;
+  margin-left: 35%;
+  position: relative;
+  bottom: 0;
+  padding: 12PX;
+  border: 1px slod slategray;
+  font-family: AGE;
+  font-size: larger;
+}
+.ark p {
+  font-family: ldf;
+  padding-left: 15px;
+  font-size: large;
+}
+#game h1 {
+  font-family: tekb;
+  text-align: center;
+}
+.gameint{
+  color:#2575fc;
+}
+.homeint{
+  color: #FFA500;
+}

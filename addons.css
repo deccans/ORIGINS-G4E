@@ -1,0 +1,103 @@
+refer{color:
+  #0E0E10 
+  #10e3a4 
+  #2575fc
+  #c90411
+  #F8F8FF
+  #FFA500
+  #fc6b03
+  #6666ff
+  #76B900
+  #002fed
+  #ef0707
+  #bd00ff
+  #e3ff00
+  }
+@font-face {
+    font-family:TBG ;
+    src: url(FONTS/tbg.otf);
+}
+@font-face {
+  font-family: age;
+  src: url(FONTS/AgencyFBBold.ttf);
+}
+@font-face {
+  font-family: ark;
+  src: url(FONTS/ARK-Regular.ttf);
+}
+@font-face {
+  font-family: evo;
+  src: url(FONTS/Evogria.otf);
+}
+@font-face {
+  font-family: gre;
+  src: url(FONTS/Gretaros-Regular.ttf);
+}
+@font-face {
+  font-family: ldf;
+  src: url(FONTS/fontldf.ttf);
+}
+@font-face {
+  font-family: val;
+  src: url(FONTS/Valorant\ Font.ttf);
+}
+@font-face {
+  font-family: port ;
+  src: url(FONTS/Porter\ Bold.ttf));
+}
+@font-face {
+  font-family: tekm;
+  src: url(FONTS/Teko-Medium.ttf);
+}
+@font-face {
+  font-family: tekb;
+  src: url(FONTS/Teko-Bold.ttf);
+}
+@font-face {
+  font-family: boll;
+  src: url(FONTS/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf);
+}
+@font-face {
+  font-family: rex;
+  src: url(FONTS/Revoxa.ttf);
+}
+@font-face {
+    font-family: tec;
+    src: url(FONTS/Tech\ Headlines.otf);
+}
+@font-face {
+    font-family: exp;
+    src: url(FONTS/Expansiva.otf);
+}
+@font-face {
+    font-family: lei;
+    src: url(FONTS/LEIXO-DEMO.ttf);
+}
+@font-face {
+    font-family: hei ;
+    src: url(FONTS/Heavitas.ttf);
+}
+@font-face {
+  font-family: hel;
+  src: url(FONTS/HelveticaNowText-Bold.ttf);
+}
+@font-face {
+  font-family: gro;
+  src: url(FONTS/Zombie\ Monster.ttf);
+}
+@font-face {
+  font-family: galn;
+  src: url(FONTS/Galyon-Bold.otf);
+}
+@font-face {
+  font-family: tele;
+  src: url(FONTS/telegrafico.ttf);
+}
+@font-face {
+  font-family: mom;
+  src: url(FONTS/Momcake-Bold.otf);
+}
+@font-face {
+  font-family: typo;
+  src: url(FONTS/Typo\ Formal\ Regular\ Demo.otf);
+}
