@@ -1,0 +1,1 @@
+alert("The Website May Collect Cookies In Order To Ensure Secure Browsing Experience. By Continuing To Use This Website, You Agree To The Use Of Cookies."); 

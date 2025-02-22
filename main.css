@@ -144,7 +144,7 @@ body {
 visibility: hidden;
 }
 .container{
-  background-color: #F8F8FF;
+  background-color: rgb(0, 0, 0);
   position: absolute;
   overflow: hidden;
   left: 0;
@@ -224,13 +224,14 @@ visibility: hidden;
   left: 0;
   right: 0;
   margin: auto;
+  color: #F8F8FF;
 }
 .games{
   color: #ef0707;
 }
 .content {
   display: flex;
-  gap: 1px;
+  gap: 100px;
   margin-top: 110px;
   flex-direction: column;
   justify-content: center;
@@ -267,10 +268,11 @@ visibility: hidden;
   height: 110px;
   transition: all 0.5s linear;
   cursor: pointer;
+
   animation: btt 2s linear;
 }
 .dlbgames::after{
-  content: "1";
+  content: "2";
   position: absolute;
   right: -80px;
   width: 100px;
@@ -351,7 +353,7 @@ visibility: hidden;
   justify-content: center;
   width: 550px;
   position: absolute;
-  left: -20px;
+  left: -50px;
   border-radius: 10px;
   margin-top: 5px;
 }
@@ -371,7 +373,7 @@ margin: auto;
 }
 .box p{
   color: #F8F8FF;
-  margin-top: 40px;
+  margin-top: 0px;
   font-family: tekm;
   font-weight: lighter;
   font-size: large;
@@ -407,6 +409,7 @@ margin: auto;
   transition: all 0.5s linear;
   border-radius: 10px;
   z-index: -1;
+  box-shadow: 1px 1px 15px #bd00ff;
 }
 .box a:hover::after{
   width: 100%;
@@ -432,7 +435,7 @@ margin: auto;
   color: #0E0E10;
   background-color: #76B900;
   position: relative;
-  bottom: -220px;
+  bottom: -200px;
   left: -637px;
   float: left;
   padding: 15px;
