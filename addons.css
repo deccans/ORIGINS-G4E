@@ -101,3 +101,27 @@ refer{color:
   font-family: typo;
   src: url(FONTS/Typo\ Formal\ Regular\ Demo.otf);
 }
+@font-face {
+  font-family: grot;
+  src: url(Fonts/GROTESKIA.otf);
+}
+@font-face {
+  font-family: SEG;
+  src: url(Fonts/Segoe\ UI\ Bold.ttf);
+}
+@font-face {
+  font-family: clr;
+  src: url(Fonts/Francker\ W01\ Condensed\ Medium.otf);
+}
+@font-face {
+  font-family: arta;
+  src: url(Fonts/Fontspring-DEMO-artegra_sans-500-medium.otf);
+}
+@font-face {
+  font-family: prm;
+  src: url(Fonts/ProjectDType-Medium.ttf);
+}
+@font-face {
+  font-family: pro;
+  src: url(Fonts/ProjectDTypeCurve-Bold.ttf);
+}

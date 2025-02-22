@@ -13,3 +13,24 @@ refer{color:
   #bd00ff
   #e3ff00
   }
+  .firstlay {
+    width: 80%;
+    overflow: hidden;
+}
+.carousel {
+  position: absolute;
+  width: 100%;
+  top: 160px;
+  display: flex;
+  z-index: 1000;
+}
+.carousel-image {
+  width: 100%;
+  position: relative;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-image.show {
+  opacity: 1;
+}

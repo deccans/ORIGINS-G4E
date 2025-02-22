@@ -49,3 +49,4 @@
     margin-top: 1180px;
   }
 }
+d:\G4E PRO\images\banner2.jpg
